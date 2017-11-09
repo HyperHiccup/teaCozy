@@ -70,18 +70,29 @@ Body
   background-color: black;
 }
 
+#features {
+  width: 1000px;
+  align-self: center;
+}
+
 #tea {
   width: 1000px;
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-self: center;
 }
 
-.featured {
-  
-
-}
 
 #tea img {
   height: 200px;
   width: 300px;
+  margin-bottom: 0;
+}
+
+.bottomrow {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
+  justify-content: space-around;
 }
