@@ -96,3 +96,42 @@ Body
   flex-wrap: wrap;
   justify-content: space-around;
 }
+
+.bottomthird {
+  background-image: url(https://s3.amazonaws.com/codecademy-content/courses/freelance-1/unit-4/img-locations-background.jpg);
+  height: 500px;
+  width: 1200px;
+}
+
+.bottomthird h2 {
+  margin-bottom: 0;
+}
+
+#location {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+}
+
+.locations {
+  background-color: black;
+  width: 300px;
+  margin-top: 15px;
+  padding: 0 20px;
+  opacity: 1;
+}
+
+#contact {
+  height: 200px;
+}
+
+
+
+/******************
+Footer
+******************/
+
+#copy {
+  text-align: left;
+  margin-top: 20px
+}
